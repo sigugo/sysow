@@ -15,7 +15,7 @@ Pin to taskbar, in the terminal CTRL+Click new window now opens admin prompts
 ```
 winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
-To get the nerd fonts start powershell as admin
+To get the nerd fonts start an elevated powershell
 ```
 oh-my-posh font install
 ```
