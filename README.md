@@ -23,13 +23,13 @@ Change the Windows Terminal configuration to use one of the Nerd Fonts
 
 ### Configure for Powershell
 
-Start powershell
+Start powershell, then use the follwing commands to generate and edit a profile configuration.
 ``` ps1
 New-Item -Path $PROFILE -Type File -Force
 notepad $PROFILE
 ```
 
-Write the following contents
+Write the following contents into this file.
 ``` ps1
 $ENV:PATH="$ENV:PATH;C:\msys64\usr\bin;$HOME/.cargo/bin"
 oh-my-posh init pwsh | Invoke-Expression
