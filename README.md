@@ -68,4 +68,4 @@ winget install Rustlang.Rustup
 ### Tools
 ```
 cargo install ripgrep
-`
+```
