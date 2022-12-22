@@ -19,7 +19,7 @@ To get the nerd fonts start an elevated powershell
 ```
 oh-my-posh font install
 ```
-Change the Windows Terminal configuration to use one of the Nerd Fonts
+Restart Windows Terminal and change the Default settings to use one of the Nerd Fonts via Settings UI.
 
 ### Configure for Powershell
 
@@ -35,7 +35,7 @@ $ENV:PATH="$ENV:PATH;C:\msys64\usr\bin;$HOME/.cargo/bin"
 oh-my-posh init pwsh | Invoke-Expression
 Set-Alias vim nvim
 ```
-Restart Windows Terminal / Powershell for this to take effect.
+Restart Powershell for this to take effect.
 
 ## Neovim
 
